@@ -1,0 +1,7 @@
+* text=auto
+
+*.m text
+
+*.bmp binary
+*.dll binary
+*.mexw64 binary
