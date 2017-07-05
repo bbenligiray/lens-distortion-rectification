@@ -25,6 +25,8 @@ plotTitle = '3 - Line segment groups';
 plotLinesOnImage(I, lineGroups, plotTitle);
 
 % select a set of line segment groups with sequential backward selection
+% you may want to comment this part out if the scene is mostly linear,
+% because this takes about 95% of the running time
 lineGroups = selectLineSegmentGroups(lineGroups, I);
 
 % plot the line segment groups
